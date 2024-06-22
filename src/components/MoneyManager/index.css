@@ -1,0 +1,195 @@
+/* Write your CSS here */
+.app-bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 25px;
+}
+.inner-card-container {
+  margin-top: 15px;
+}
+.money-mangager-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 5px;
+  text-align: start;
+  padding: 15px;
+  border-top-right-radius: 8px;
+  margin: 8px;
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px;
+  border-radius: 10px;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+.expense-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px;
+  border-radius: 10px;
+}
+span {
+  color: #7c3aed;
+}
+p {
+  font-family: 'roboto';
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+}
+.symbol {
+  height: 70px;
+  margin-right: 20px;
+}
+.amount {
+  font-size: 21px;
+}
+input {
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .balance-income-expense-container {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+  .transaction-container {
+    width: 40%;
+  }
+  .history-container {
+    width: 40%;
+  }
+}
+.transaction-container {
+  margin: 12px;
+  border: 2px solid #334155;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: start;
+  padding-left: 40px;
+}
+.transaction-container-heading {
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: 600;
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .bottom-containers {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  .transaction-container-heading {
+    font-size: 18px;
+  }
+  .history-container {
+    margin-left: 50px;
+    margin-left: auto;
+    margin: 12px;
+    border: 2px solid #334155;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 40px;
+    width: 45%;
+  }
+}
+.add-button {
+  padding: 8px;
+  width: 80px;
+  color: #fff;
+  background-color: #0b69ff;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.inputEl {
+  outline: none;
+  border: 1px solid #475569;
+  width: 50%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+.amount-inputEl {
+  outline: none;
+  border: 1px solid #475569;
+  width: 50%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+.select-inputEl {
+  outline: none;
+  border: 1px solid #475569;
+  width: 50%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+.history-container {
+  margin: 12px;
+  border: 2px solid #334155;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: start;
+  padding-left: 40px;
+  //width: 50%;
+}
+@media (max-width: 560px) {
+  .history-container {
+    width: 95%;
+  }
+}
+.history-items {
+  margin: 12px;
+  border: 2px solid #334155;
+  border-radius: 8px;
+
+  text-align: start;
+}
+.history-container-headings {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+@media screen and (min-width: 768px) {
+  .history-container-headings {
+    display: flex;
+  }
+  .history-container {
+    min-width: 45%;
+  }
+  .transaction-container {
+    min-width: 45%;
+  }
+}
+
+ul {
+  padding-left: 0px;
+}
+img {
+  height: 30px;
+}
